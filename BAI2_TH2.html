@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAI2_TH2_KHANHVAN</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blueviolet;
+            font-size: 20px;
+        }
+        p{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(143, 143, 143);
+            font-size: 10px;
+        }
+        .container{
+            background-color: rgb(200, 235, 223);
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            background-image: -moz-linear-gradient(0.4);
+            background-attachment: fixed;
+        }
+        input{
+            width: 45%;  
+            padding: 12px 20px;  
+            margin: 10px;  
+            box-sizing: border-box;
+        }
+        #loaikh{
+            width: 45%;  
+            padding: 12px 20px;  
+            margin: 8px;  
+            box-sizing: border-box;
+        }
+        #chitiet{
+            padding: 40px 40px;  
+            width: 95%;
+            text-align: start;
+        }
+        button{
+            padding: 6px 15px;
+            background-color: rgb(77, 122, 235) ;
+            text-align: center;
+            color: aliceblue;   
+            margin: 8px;
+            border-radius: 6px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h1>
+    </div>
+    <div>
+        <p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu</p>
+        <p>Các ý kiến đóng nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm <span style="font-style: italic;">(nếu có)</span></p>
+    </div>
+    <div class="container">
+        
+         <form>
+                <label for="fname"></label>
+                <input type="text" id="fname" name="Họ và tên" value="Họ và tên">
+                <label for="mathe"></label>
+                <input type="text" id="mathe" name="Mã thẻ" value="Mã thẻ">
+                <label for="phone"></label>
+                <input type="text" name="Số điện thoại" id="phone" value="Số điện thoại">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" value="E-mail" required>
+                <label for="loaikh"></label>
+                <select id="loaikh" required>
+                        <option value="">Chọn loại khách hàng</option>
+                        <option value="vip">VIP</option>
+                        <option value="regular">Regular</option>
+                        <option value="new">New</option>
+                </select>
+                <label for="mahd"></label>
+                <input type="text" name="mã hóa đơn" id="mahd" value="Mã hóa đơn">
+                <label for="chitiet"> </label>
+                <input type="text" name="Nhập chi tiết" id="chitiet" value="Nhập chi tiết mô tả">
+        </form>
+        <div>
+            <button type="submit">
+                GỬI GÓP Ý
+                <img style="width: 15px; " src="https://icon-library.com/images/facebook-messenger-icon-transparent/facebook-messenger-icon-transparent-20.jpg" alt="">
+            </button>
+        </div>
+    </div>
+</body
+</html>
